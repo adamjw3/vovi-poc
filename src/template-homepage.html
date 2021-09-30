@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title>Templates: Homepage - @@include('includes/sitename.html')</title>
+    @@include('includes/head.html')
+</head>
+<body>
+<main id="main-content">
+    <article>
+        @@include('components/masthead.html', { "title": "Welcome to our site11", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit purus ex, eget molestie quam rutrum vitae. In egestas faucibus magna, vel malesuada mi tempor a.", "bgimage": false, "class": ""})
+    </article>
+</main>
+@@include('includes/labjs-debug.html')
+@@include('includes/globaljs.html')
+<script type="text/javascript">
+    $LAB
+    .script("https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js")
+    .script("https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js")
+    .script("/resources/js/plugins/jquery.splitlines.min.js")
+    .script("/resources/js/splitlines.min.js").wait(function() {
+        FESplitLines.Init();
+    });
+</script>
+</body>
+</html>
