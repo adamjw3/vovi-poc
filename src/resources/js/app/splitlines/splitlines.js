@@ -1,33 +1,39 @@
 var FESplitLines = {
     Init: function Init() {
+        this.AddLines();
+        this.Intersection();
+    },
+    AddLines: function () {
         $('.js-line-splitting').each(function () {
             var $this = $(this);
             $this.splitLines({ tag: '<div class="line-outter"><div class="line-inner">', keepHtml: true });
         });
-
-        $(document).ready(function () {
-            $('.line-outter').each(function () {
-                var $this = $(this);
-                if ($this.inView('both', 200)) {
-                    var $line = $this.find('.line-inner');
-                    var tl = gsap.timeline();
-
-                    tl.staggerTo($line, 1, { y: 0, ease: 'power2' }, 0.5);
-                }
-            });
-        });
     },
-    Scroll: function () {
-        $(window).scroll(function () {
-            $('.line-outter').each(function () {
-                var $this = $(this);
-                if ($this.inView('both', 200)) {
-                    var $line = $this.find('.line-inner');
-                    var tl = gsap.timeline();
+    Intersection: function () {
+        let el = [...document.querySelectorAll('.line-outter')];
 
-                    tl.staggerTo($line, 1, { y: 0, ease: 'power2' }, 0.5);
+        let options = {
+            rootMargin: '-10%',
+            threshold: 0.0,
+        };
+
+        let observer = new IntersectionObserver(showItem, options);
+
+        function showItem(entries) {
+            console.log(entries);
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.children[0].classList.add('is-animate');
                 }
             });
+        }
+
+        el.forEach((item) => {
+            let newString = '';
+            //let itemText = item.children[0].innerText().split();
+            //itemText.map((letter) => (newString += letter = ' ' ? `<span class="gap"></span>` : `<span>${letter}</span>`));
+
+            observer.observe(item);
         });
     },
 };
