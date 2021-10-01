@@ -71,11 +71,11 @@
 .c-masthead__icon-container {
     @include make-col-ready();
     @include make-col(8);
+    margin-bottom: 60px;
 
     img {
         position: relative;
         left: -20px;
-        margin-bottom: $unit-large;
         animation-name: spin;
         animation-duration: 5000ms;
         animation-iteration-count: infinite;
