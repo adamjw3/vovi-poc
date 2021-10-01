@@ -611,6 +611,17 @@ body {
   transition: transform 1s ease-out, -webkit-transform 1s ease-out;
 }
 
+body {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+.is-hidden {
+  opacity: 0;
+}
+
 .c-content {
   display: inline-block;
   margin-bottom: 24px;
