@@ -2,12 +2,16 @@ var FESplitLines = {
     Init: function Init() {
         this.AddLines();
         this.Intersection();
+        this.FadeIn();
     },
     AddLines: function () {
         $('.js-line-splitting').each(function () {
             var $this = $(this);
             $this.splitLines({ tag: '<div class="line-outter"><div class="line-inner">', keepHtml: true });
         });
+    },
+    FadeIn: function () {
+        $('body').css({ opacity: 1 });
     },
     Intersection: function () {
         let el = [...document.querySelectorAll('.line-outter')];

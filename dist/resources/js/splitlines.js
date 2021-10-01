@@ -6,12 +6,16 @@ var FESplitLines = {
     Init: function Init() {
         this.AddLines();
         this.Intersection();
+        this.FadeIn();
     },
     AddLines: function AddLines() {
         $('.js-line-splitting').each(function () {
             var $this = $(this);
             $this.splitLines({ tag: '<div class="line-outter"><div class="line-inner">', keepHtml: true });
         });
+    },
+    FadeIn: function FadeIn() {
+        $('body').css({ opacity: 1 });
     },
     Intersection: function Intersection() {
         var el = [].concat(_toConsumableArray(document.querySelectorAll('.line-outter')));
