@@ -24,7 +24,7 @@
 <link rel="manifest" href="/resources/images/icons/manifest.json"/>
 </head>
 <body style="opacity: 0;">
-<main id="main-content">
+<main id="main-content" data-scroll-container>
     <article>
         <section class="c-masthead ">
     <div class="container">
@@ -162,6 +162,7 @@
 
 <script type="text/javascript">
     $LAB
+    .script("/resources/js/plugins/locomotive-scroll.min.js")
     .script("/resources/js/plugins/jquery.splitlines.min.js")
     .script("/resources/js/splitlines.min.js").wait(function() {
         FESplitLines.Init();

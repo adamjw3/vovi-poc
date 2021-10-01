@@ -1,8 +1,15 @@
 var FESplitLines = {
     Init: function Init() {
+        this.Scroll();
         this.AddLines();
         this.Intersection();
         this.FadeIn();
+    },
+    Scroll: function () {
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+        });
     },
     AddLines: function () {
         $('.js-line-splitting').each(function () {

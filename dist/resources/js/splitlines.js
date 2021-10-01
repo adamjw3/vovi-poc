@@ -4,9 +4,16 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 var FESplitLines = {
     Init: function Init() {
+        this.Scroll();
         this.AddLines();
         this.Intersection();
         this.FadeIn();
+    },
+    Scroll: function Scroll() {
+        var scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
     },
     AddLines: function AddLines() {
         $('.js-line-splitting').each(function () {
