@@ -16,16 +16,16 @@
 
 // 1
 @font-face {
-    font-family: 'GeneralSans-Regular';
-    src: url('/resources/fonts/GeneralSans-Regular.woff2') format('woff2'), url('/resources/fonts/GeneralSans-Regular.woff') format('woff'),
-        url('/resources/fonts/GeneralSans-Regular.ttf') format('truetype');
-    font-weight: 400;
+    font-family: 'GeneralSans-Variable';
+    src: url('/resources/fonts/GeneralSans-Variable.woff2') format('woff2'), url('/resources/fonts//GeneralSans-Variable.woff') format('woff'),
+        url('/resources/fonts/GeneralSans-Variable.ttf') format('truetype');
+    font-weight: 200 700;
     font-display: swap;
     font-style: normal;
 }
 
-@mixin font-general-san-reg() {
-    font-family: 'GeneralSans-Regular', Arial;
+@mixin font-general-san-var() {
+    font-family: 'GeneralSans-Variable', Arial;
 }
 
 // 2
