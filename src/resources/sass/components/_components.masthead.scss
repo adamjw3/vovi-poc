@@ -32,6 +32,7 @@
 .c-masthead__image-container {
     @include make-col(7);
     height: 100%;
+    overflow: hidden;
 }
 
 .c-masthead__image {
@@ -39,6 +40,12 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+
+    &.is-inview {
+        transform: scale(1);
+    }
 }
 
 .c-masthead__content-container {
@@ -91,7 +98,7 @@
     margin-top: $unit-small;
 
     @include media-breakpoint-up(md) {
-        margin-top: $unit;
+        margin-top: 30px;
     }
 }
 
@@ -101,7 +108,7 @@
     margin-top: $unit-small;
 
     @include media-breakpoint-up(md) {
-        margin-top: $unit;
+        margin-top: 90px;
     }
 
     a {

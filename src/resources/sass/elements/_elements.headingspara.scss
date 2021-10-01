@@ -49,7 +49,7 @@
 @mixin heading-xlarge() {
     @include font-general-san-var;
     @include font-size(2.5);
-    line-height: 120%;
+    line-height: 130%;
 
     @include media-breakpoint-up(sm) {
         @include font-size(3);
