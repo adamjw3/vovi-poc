@@ -16,24 +16,23 @@
 // -----------------------------------------------------------------------------
 
 // 1
-$color-black:                                           #000000;
-$color-brand-primary:                                   #000000;
-$color-brand-secondary:                                 #cccccc;
-$color-grey:                                            #aaaaaa;
-$color-white:                                           #ffffff;
+$color-black: #000000;
+$color-brand-primary: #000000;
+$color-brand-secondary: #cccccc;
+$color-grey: #aaaaaa;
+$color-white: #ffffff;
 
 // 2
-$color-validation-error:                                #ff0000;
-$color-validation-success:                              #008000;
+$color-validation-error: #ff0000;
+$color-validation-success: #008000;
 
 // 3
-$color-social-facebook:                                 #3b5998;
-$color-social-twitter:                                  #1da1f2;
-$color-social-linkedin:                                 #0077b5;
-$color-social-instagram:                                #405de6;
-$color-social-youtube:                                  #cd201f;
-$color-social-pinterest:                                #bd081c;
-
+$color-social-facebook: #3b5998;
+$color-social-twitter: #1da1f2;
+$color-social-linkedin: #0077b5;
+$color-social-instagram: #405de6;
+$color-social-youtube: #cd201f;
+$color-social-pinterest: #bd081c;
 
 // Page
 // -----------------------------------------------------------------------------
@@ -45,11 +44,10 @@ $color-social-pinterest:                                #bd081c;
 //
 // -----------------------------------------------------------------------------
 
-$color-page-bg:                                         $color-white;
-$color-page-text:                                       $color-black;
-$color-page-text-selection-bg:                          $color-black;
-$color-page-text-selection-text:                        $color-white;
-
+$color-page-bg: $color-white;
+$color-page-text: $color-black;
+$color-page-text-selection-bg: $color-black;
+$color-page-text-selection-text: $color-white;
 
 // Buttons
 // -----------------------------------------------------------------------------
@@ -61,18 +59,17 @@ $color-page-text-selection-text:                        $color-white;
 //
 // -----------------------------------------------------------------------------
 
-$color-btn-text:                                        $color-black;
-$color-btn-hover-bg:                                    $color-black;
-$color-btn-hover-text:                                  $color-white;
-$color-btn-primary-bg:                                  $color-brand-primary;
-$color-btn-primary-hover-bg:                            transparent;
-$color-btn-primary-hover-text:                          $color-black;
-$color-btn-primary-text:                                $color-white;
-$color-btn-secondary-bg:                                $color-brand-secondary;
-$color-btn-secondary-hover-bg:                          transparent;
-$color-btn-secondary-hover-text:                        $color-black;
-$color-btn-secondary-text:                              $color-white;
-
+$color-btn-text: $color-black;
+$color-btn-hover-bg: $color-black;
+$color-btn-hover-text: $color-white;
+$color-btn-primary-bg: $color-brand-primary;
+$color-btn-primary-hover-bg: transparent;
+$color-btn-primary-hover-text: $color-black;
+$color-btn-primary-text: $color-white;
+$color-btn-secondary-bg: $color-brand-secondary;
+$color-btn-secondary-hover-bg: transparent;
+$color-btn-secondary-hover-text: $color-black;
+$color-btn-secondary-text: $color-white;
 
 // Selects
 // -----------------------------------------------------------------------------
@@ -84,11 +81,10 @@ $color-btn-secondary-text:                              $color-white;
 //
 // -----------------------------------------------------------------------------
 
-$color-select-hover-bg:                                 $color-black;
-$color-select-hover-text:                               $color-white;
-$color-select-option-bg:                                $color-white;
-$color-select-text:                                     $color-black;
-
+$color-select-hover-bg: $color-black;
+$color-select-hover-text: $color-white;
+$color-select-option-bg: $color-white;
+$color-select-text: $color-black;
 
 // Forms
 // -----------------------------------------------------------------------------
@@ -100,18 +96,17 @@ $color-select-text:                                     $color-black;
 //
 // -----------------------------------------------------------------------------
 
-$color-form-checkbox-label-link-text:                   $color-brand-secondary;
-$color-form-input-bg:                                   $color-white;
-$color-form-input-border:                               $color-black;
-$color-form-input-focus:                                $color-black;
-$color-form-input-text:                                 $color-black;
-$color-form-validation-bg-error:                        rgba($color-validation-error, 0.1);
-$color-form-validation-border-error:                    $color-validation-error;
-$color-form-validation-text-error:                      $color-validation-error;
-$color-form-validation-bg-success:                      rgba($color-validation-success, 0.1);
-$color-form-validation-border-success:                  $color-validation-success;
-$color-form-validation-text-success:                    $color-validation-success;
-
+$color-form-checkbox-label-link-text: $color-brand-secondary;
+$color-form-input-bg: $color-white;
+$color-form-input-border: $color-black;
+$color-form-input-focus: $color-black;
+$color-form-input-text: $color-black;
+$color-form-validation-bg-error: rgba($color-validation-error, 0.1);
+$color-form-validation-border-error: $color-validation-error;
+$color-form-validation-text-error: $color-validation-error;
+$color-form-validation-bg-success: rgba($color-validation-success, 0.1);
+$color-form-validation-border-success: $color-validation-success;
+$color-form-validation-text-success: $color-validation-success;
 
 // Accordion
 // -----------------------------------------------------------------------------
@@ -123,9 +118,8 @@ $color-form-validation-text-success:                    $color-validation-succes
 //
 // -----------------------------------------------------------------------------
 
-$color-accordion-heading-bg:                            $color-black;
-$color-accordion-heading-text:                          $color-white;
-
+$color-accordion-heading-bg: $color-black;
+$color-accordion-heading-text: $color-white;
 
 // Blockquote
 // -----------------------------------------------------------------------------
@@ -137,7 +131,6 @@ $color-accordion-heading-text:                          $color-white;
 //
 // -----------------------------------------------------------------------------
 
-
 // Blog Article
 // -----------------------------------------------------------------------------
 //
@@ -148,8 +141,7 @@ $color-accordion-heading-text:                          $color-white;
 //
 // -----------------------------------------------------------------------------
 
-$color-blog-article-progress-bar-bg:                    $color-black;
-
+$color-blog-article-progress-bar-bg: $color-black;
 
 // Blog Listing
 // -----------------------------------------------------------------------------
@@ -161,8 +153,7 @@ $color-blog-article-progress-bar-bg:                    $color-black;
 //
 // -----------------------------------------------------------------------------
 
-$color-blog-listing-header-border:                      $color-grey;
-
+$color-blog-listing-header-border: $color-grey;
 
 // Cookie Bar
 // -----------------------------------------------------------------------------
@@ -174,9 +165,8 @@ $color-blog-listing-header-border:                      $color-grey;
 //
 // -----------------------------------------------------------------------------
 
-$color-cookiebar-bg:                                    $color-black;
-$color-cookiebar-text:                                  $color-white;
-
+$color-cookiebar-bg: $color-black;
+$color-cookiebar-text: $color-white;
 
 // CTA
 // -----------------------------------------------------------------------------
@@ -188,7 +178,6 @@ $color-cookiebar-text:                                  $color-white;
 //
 // -----------------------------------------------------------------------------
 
-
 // Listing
 // -----------------------------------------------------------------------------
 //
@@ -199,8 +188,7 @@ $color-cookiebar-text:                                  $color-white;
 //
 // -----------------------------------------------------------------------------
 
-$color-listing-item-bg:                                 $color-grey;
-
+$color-listing-item-bg: $color-grey;
 
 // Masthead
 // -----------------------------------------------------------------------------
@@ -212,21 +200,7 @@ $color-listing-item-bg:                                 $color-grey;
 //
 // -----------------------------------------------------------------------------
 
-$color-masthead-bg:                                     $color-brand-secondary;
-
-
-// Navbar
-// -----------------------------------------------------------------------------
-//
-// Purpose: All the navbar colours
-//
-//
-// 1.
-//
-// -----------------------------------------------------------------------------
-
-$color-navbar-links-bg:                                 $color-brand-secondary;
-
+$color-masthead-bg: #dfd2c2;
 
 // Navbar
 // -----------------------------------------------------------------------------
@@ -238,8 +212,19 @@ $color-navbar-links-bg:                                 $color-brand-secondary;
 //
 // -----------------------------------------------------------------------------
 
-$color-newsletter-signup-bg:                            $color-brand-secondary;
+$color-navbar-links-bg: $color-brand-secondary;
 
+// Navbar
+// -----------------------------------------------------------------------------
+//
+// Purpose: All the navbar colours
+//
+//
+// 1.
+//
+// -----------------------------------------------------------------------------
+
+$color-newsletter-signup-bg: $color-brand-secondary;
 
 // Pagination
 // -----------------------------------------------------------------------------
@@ -251,8 +236,7 @@ $color-newsletter-signup-bg:                            $color-brand-secondary;
 //
 // -----------------------------------------------------------------------------
 
-$color-pagination-highlight:                            $color-black;
-
+$color-pagination-highlight: $color-black;
 
 // Tabs
 // -----------------------------------------------------------------------------
@@ -264,11 +248,10 @@ $color-pagination-highlight:                            $color-black;
 //
 // -----------------------------------------------------------------------------
 
-$color-tabs-bg:                                         $color-black;
-$color-tabs-bg-active:                                  $color-white;
-$color-tabs-color:                                      $color-white;
-$color-tabs-color-active:                               $color-black;
-
+$color-tabs-bg: $color-black;
+$color-tabs-bg-active: $color-white;
+$color-tabs-color: $color-white;
+$color-tabs-color-active: $color-black;
 
 // Footer
 // -----------------------------------------------------------------------------
@@ -280,8 +263,7 @@ $color-tabs-color-active:                               $color-black;
 //
 // -----------------------------------------------------------------------------
 
-$color-footer-legal-border:                             $color-black;
-
+$color-footer-legal-border: $color-black;
 
 // Carousel
 // -----------------------------------------------------------------------------
@@ -293,10 +275,9 @@ $color-footer-legal-border:                             $color-black;
 //
 // -----------------------------------------------------------------------------
 
-$color-carousel-dots-active-bg:                         $color-black;
-$color-carousel-dots-bg:                                $color-brand-secondary;
-$color-carousel-slide-bg:                               $color-brand-secondary;
-
+$color-carousel-dots-active-bg: $color-black;
+$color-carousel-dots-bg: $color-brand-secondary;
+$color-carousel-slide-bg: $color-brand-secondary;
 
 // Search Results
 // -----------------------------------------------------------------------------
@@ -308,5 +289,5 @@ $color-carousel-slide-bg:                               $color-brand-secondary;
 //
 // -----------------------------------------------------------------------------
 
-$color-searchresults-result-bg:                         $color-brand-secondary;
-$color-searchresults-result-hover-bg:                   $color-grey;
+$color-searchresults-result-bg: $color-brand-secondary;
+$color-searchresults-result-hover-bg: $color-grey;
