@@ -600,10 +600,15 @@ body {
   transition: transform 1s ease-out, -webkit-transform 1s ease-out;
 }
 
-.line-inner.is-animate {
+.line-inner.is-inview {
   -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
           transform: translateY(0%);
+  -webkit-transition: -webkit-transform 1s ease-out;
+  transition: -webkit-transform 1s ease-out;
+  -o-transition: transform 1s ease-out;
+  transition: transform 1s ease-out;
+  transition: transform 1s ease-out, -webkit-transform 1s ease-out;
 }
 
 .c-content {
